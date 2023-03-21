@@ -1,0 +1,48 @@
+.header {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 28px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-link {
+  padding: 0px 16px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #374151;
+}
+
+.primary-button {
+  padding: 10px 16px;
+  background: var(--primary-color);
+  border-radius: 100px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color-dark);
+}

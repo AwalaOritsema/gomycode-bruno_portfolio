@@ -1,0 +1,22 @@
+/* TODO: import font(s) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* variables */
+  --primary-color: #5e3bee;
+  --primary-color-dark: #2b128e;
+  --secondary-color: #f0fefa;
+  --neutral-color: #111827;
+
+  /* TODO: root styles */
+  font-family: "Inter", sans-serif;
+  color: var(--neutral-color);
+  line-height: 28px;
+}
+
+* {
+  /* TODO: resets */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
