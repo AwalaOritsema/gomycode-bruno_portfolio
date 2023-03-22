@@ -26,23 +26,3 @@
   line-height: 20px;
   color: #374151;
 }
-
-.primary-button {
-  padding: 10px 16px;
-  background: var(--primary-color);
-  border-radius: 100px;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.primary-button:hover {
-  background-color: var(--primary-color-dark);
-}
