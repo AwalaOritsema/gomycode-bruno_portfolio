@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+  .hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.025em;
+  }
+
+  .featured-cards {
+    gap: 32px;
+  }
+
+  .services-wrapper {
+    flex-direction: column;
+    padding: 40px 32px;
+    align-items: flex-start;
+  }
+
+  .services-wrapper-article {
+    max-width: 100%;
+  }
+
+  .services-featured {
+    max-width: 100%;
+    position: static;
+  }
+
+  .metrics {
+    flex-direction: column;
+  }
+
+  .metrics > * {
+    width: 100%;
+  }
+
+  .footer-links {
+    gap: 24px;
+  }
+}

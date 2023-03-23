@@ -1,7 +1,7 @@
 .hero {
   max-width: 1216px;
   margin: 0 auto;
-  padding: 128px 104px 192px;
+  padding: 128px 40px 192px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +15,7 @@
 }
 
 .hero-title {
+  max-width: 1008px;
   font-weight: 600;
   font-size: 72px;
   line-height: 90px;
@@ -24,6 +25,10 @@
 }
 
 /* horizontal rule */
+.h-rule-wrapper {
+  padding: 0 40px;
+}
+
 .h-rule {
   max-width: 1216px;
   margin: 0 auto;
@@ -77,9 +82,14 @@
 
 .featured-card {
   position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.featured-card-image {
+  width: 100%;
 }
 
 .featured-card-article {
@@ -103,6 +113,8 @@
 
 .featured-cards-left,
 .featured-cards-right {
+  position: relative;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -119,7 +131,7 @@
 .services {
   max-width: 1216px;
   margin: 0 auto;
-  padding: 184px 16px;
+  padding: 184px 40px;
 }
 
 .services-wrapper {
@@ -189,9 +201,14 @@
 .partners {
   max-width: 1216px;
   margin: 0 auto;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   gap: 36px;
+}
+
+.partners .h-rule-wrapper {
+  padding: 0;
 }
 
 .partners-logos {
@@ -225,10 +242,14 @@
 .metrics {
   max-width: 1216px;
   margin: 0 auto;
-  padding: 184px 16px;
+  padding: 184px 40px;
   display: flex;
   align-items: center;
   gap: 64px;
+}
+
+.metrics > * {
+  width: 50%;
 }
 
 .metrics-article {
@@ -258,7 +279,7 @@
 
 .footer {
   width: 100%;
-  padding: 120px 0;
+  padding: 120px 40px;
   background-color: black;
   color: white;
 }
@@ -291,6 +312,7 @@
 .footer-info {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .footer-info > p {
@@ -303,7 +325,7 @@
 
 .footer-links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 48px;
 }
 

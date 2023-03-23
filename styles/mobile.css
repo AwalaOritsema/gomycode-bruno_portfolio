@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+
+  .hero-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.025em;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .featured-cards {
+    flex-direction: column;
+  }
+
+  .header,
+  .hero,
+  .h-rule-wrapper,
+  .featured,
+  .services,
+  .metrics,
+  .partners,
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .featured {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+
+  .featured-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.025em;
+  }
+
+  .featured-cards-right {
+    margin-top: 0;
+  }
+
+  .featured-cards-left,
+  .featured-cards-right {
+    width: 100%;
+    gap: 48px;
+  }
+
+  .services {
+    padding: 24px 0;
+  }
+
+  .services-wrapper {
+    padding: 40px 20px;
+  }
+
+  .services-featured {
+    flex-direction: column;
+  }
+
+  .partners,
+  .metrics {
+    padding: 32px 20px;
+  }
+
+  .partners-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .partners .h-rule-wrapper {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 48px 20px 80px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
