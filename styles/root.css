@@ -20,3 +20,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+}
